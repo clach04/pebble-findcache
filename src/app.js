@@ -127,7 +127,7 @@ var dist = new UI.Text({
 main.add(dist);
 
 Settings.config(
-  { url: 'https://rawgit.com/samuelmr/pebble-findcache/master/configure.html' },
+  { url: 'https://clach04.github.io/pebble-findcache/configure.html' },
   function(e) {
     if (e.options && e.options.locations) {
       units = e.options.units;
