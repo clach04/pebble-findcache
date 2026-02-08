@@ -10,7 +10,7 @@ Geocaching with Pebble
 Usage
 -----
 
-Use your phone to configure cahce locations and units (metric/imperial). Enter the locations as decimal coordinates (e.g. -33.887233, 151.186150). Save the configuration by sending the data to watch.
+Use your phone to configure multiple cache locations and units (metric/imperial). Enter the locations as decimal coordinates (e.g. -33.887233, 151.186150). Save the configuration by sending the data to watch.
 
 Select a geocache from the menu on your watch.
 
