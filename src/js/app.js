@@ -175,7 +175,7 @@ function buildMenu(locations) {
       locs[i] = {title: utf8(locations[i][0]), subtitle: locations[i][1]};
     }
   }
-  menu.section(0, {title: 'Locations', items: locs});  
+  menu.section(0, {title: 'Locations', items: locs});
   menu.show();
 }
 
@@ -189,7 +189,7 @@ function updateView() {
     var l1 = myLat * Math.PI / 180;
     var l2 = targetLat * Math.PI / 180;
     var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-            Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(l1) * Math.cos(l2); 
+            Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(l1) * Math.cos(l2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
     var d = Math.round(R * c);
     if (units == 'imperial') {
@@ -230,7 +230,7 @@ function updateView() {
       head.text(newhead);
       target.animate('position', new Vector2(targetX, targetY));
       me.animate('position', new Vector2(myX, myY));
-    } 
+    }
     // console.log('dist is ' + dist.text() + ' and head is ' + head.text() + '; my heading is ' + myHeading);
   }
 }
