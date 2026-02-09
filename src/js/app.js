@@ -83,7 +83,7 @@ var west = new UI.Text({
 main.add(west);
 
 var month = new UI.TimeText({
-  position: new Vector2(4, height-12),
+  position: new Vector2(4, height-20),  // TODO replace 20 with a variable/constant
   size: new Vector2(30, 12),
   font: 'gothic-14',
   text: '%b',
@@ -92,7 +92,7 @@ var month = new UI.TimeText({
 main.add(month);
 
 var day = new UI.TimeText({
-  position: new Vector2(width-34, height-12),
+  position: new Vector2(width-34, height-20),  // TODO replace 20 with a variable/constant
   size: new Vector2(30, 12),
   font: 'gothic-14',
   text: '%d',
