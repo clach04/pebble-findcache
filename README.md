@@ -28,3 +28,5 @@ GitHub CodeSpaces Pebble SDK doesn't support Pebble.js (out of box)
 
 > Pebble.js is not part of the pebble SDK, and so the SDK can't build it.
 > Either use CloudPebble or follow the instructions at https://github.com/pebble/pebblejs/blob/master/README.md#getting-started
+
+Experimental build that works with GitHub Code Spaces with Emery support is in https://github.com/clach04/pebble-findcache/tree/builtin_pebblejs
